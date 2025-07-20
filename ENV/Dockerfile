@@ -1,5 +1,5 @@
 FROM almalinux:9
-LABEL COURSE="DevOps" \
+ENV COURSE="DevOps" \
       TRAINER="JohnDoe" \
       DURATION="120HRS"  
 CMD ["sleep", "1000"]
