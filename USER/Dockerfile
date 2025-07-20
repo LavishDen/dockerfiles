@@ -4,4 +4,5 @@ RUN useradd lavish
 
 USER lavish
 CMD ["google.com"]
+CMD ["sleep", "1000"]
 ENTRYPOINT ["ping"]
